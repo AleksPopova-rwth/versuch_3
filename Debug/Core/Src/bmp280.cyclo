@@ -1,0 +1,16 @@
+../Core/Src/bmp280.c:36:6:bmp280_init_default_params	1
+../Core/Src/bmp280.c:45:6:spi_select_chip	1
+../Core/Src/bmp280.c:52:6:spi_deselect_chip	1
+../Core/Src/bmp280.c:59:13:read_register16	1
+../Core/Src/bmp280.c:78:19:read_data	1
+../Core/Src/bmp280.c:89:12:write_register8	1
+../Core/Src/bmp280.c:99:13:read_calibration_data	13
+../Core/Src/bmp280.c:121:13:read_hum_calibration_data	7
+../Core/Src/bmp280.c:139:6:bmp280_init	15
+../Core/Src/bmp280.c:198:6:bmp280_force_measurement	3
+../Core/Src/bmp280.c:210:6:bmp280_is_measuring	3
+../Core/Src/bmp280.c:225:23:compensate_temperature	1
+../Core/Src/bmp280.c:244:24:compensate_pressure	2
+../Core/Src/bmp280.c:274:24:compensate_humidity	1
+../Core/Src/bmp280.c:293:6:bmp280_read_fixed	6
+../Core/Src/bmp280.c:327:6:bmp280_read_float	4
